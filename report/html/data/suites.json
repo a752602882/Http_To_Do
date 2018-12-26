@@ -1,0 +1,33 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "python",
+    "children" : [ {
+      "name" : "test_sample.Test1.test_answer",
+      "uid" : "be2e4c24078cf853",
+      "parentUid" : "76d10eac48edc314f3f1fc30f1b6c595",
+      "status" : "failed",
+      "time" : {
+        "start" : 1544433283642,
+        "stop" : 1544433283749,
+        "duration" : 107
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_sample.Test1.test1",
+      "uid" : "394e40c28f4b1e4d",
+      "parentUid" : "76d10eac48edc314f3f1fc30f1b6c595",
+      "status" : "passed",
+      "time" : {
+        "start" : 1544433283751,
+        "stop" : 1544433283752,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "76d10eac48edc314f3f1fc30f1b6c595"
+  } ]
+}

@@ -1,0 +1,37 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "MS-20170904PNKR",
+    "children" : [ {
+      "name" : "105948-MainThread",
+      "children" : [ {
+        "name" : "test_sample.Test1.test_answer",
+        "uid" : "be2e4c24078cf853",
+        "parentUid" : "21aefebc08d29fbbd4c455530f8cceec",
+        "status" : "failed",
+        "time" : {
+          "start" : 1544433283642,
+          "stop" : 1544433283749,
+          "duration" : 107
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_sample.Test1.test1",
+        "uid" : "394e40c28f4b1e4d",
+        "parentUid" : "21aefebc08d29fbbd4c455530f8cceec",
+        "status" : "passed",
+        "time" : {
+          "start" : 1544433283751,
+          "stop" : 1544433283752,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "21aefebc08d29fbbd4c455530f8cceec"
+    } ],
+    "uid" : "e94c42900e0e642ac985355893d216bc"
+  } ]
+}

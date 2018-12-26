@@ -1,0 +1,44 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1544433283642" stop="1544433283752">
+  <name>python</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1544433283642" status="failed" stop="1544433283749">
+      <name>test_sample.Test1.test_answer</name>
+      <failure>
+        <message>AssertionError: assert 4 == 5
+ +  where 4 = &lt;bound method Test1.func of &lt;python.test_sample.Test1 object at 0x03362AF0&gt;&gt;(3)
+ +    where &lt;bound method Test1.func of &lt;python.test_sample.Test1 object at 0x03362AF0&gt;&gt; = &lt;python.test_sample.Test1 object at 0x03362AF0&gt;.func</message>
+        <stack-trace>self = &lt;python.test_sample.Test1 object at 0x03362AF0&gt;
+
+    def test_answer(self):
+&gt;       assert self.func(3)==5
+E       assert 4 == 5
+E        +  where 4 = &lt;bound method Test1.func of &lt;python.test_sample.Test1 object at 0x03362AF0&gt;&gt;(3)
+E        +    where &lt;bound method Test1.func of &lt;python.test_sample.Test1 object at 0x03362AF0&gt;&gt; = &lt;python.test_sample.Test1 object at 0x03362AF0&gt;.func
+
+python\test_sample.py:11: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="105948-MainThread"/>
+        <label name="host" value="MS-20170904PNKR"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1544433283751" status="passed" stop="1544433283752">
+      <name>test_sample.Test1.test1</name>
+      <attachments/>
+      <labels>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="105948-MainThread"/>
+        <label name="host" value="MS-20170904PNKR"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

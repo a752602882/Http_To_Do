@@ -1,0 +1,66 @@
+{
+  "uid" : "be2e4c24078cf853",
+  "name" : "test_sample.Test1.test_answer",
+  "fullName" : "python.test_sample.Test1.test_answer",
+  "historyId" : "3e81302312ce584a4c91bc2afe6d13ff",
+  "time" : {
+    "start" : 1544433283642,
+    "stop" : 1544433283749,
+    "duration" : 107
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 4 == 5\n +  where 4 = <bound method Test1.func of <python.test_sample.Test1 object at 0x03362AF0>>(3)\n +    where <bound method Test1.func of <python.test_sample.Test1 object at 0x03362AF0>> = <python.test_sample.Test1 object at 0x03362AF0>.func",
+  "statusTrace" : "self = <python.test_sample.Test1 object at 0x03362AF0>\n\n    def test_answer(self):\n>       assert self.func(3)==5\nE       assert 4 == 5\nE        +  where 4 = <bound method Test1.func of <python.test_sample.Test1 object at 0x03362AF0>>(3)\nE        +    where <bound method Test1.func of <python.test_sample.Test1 object at 0x03362AF0>> = <python.test_sample.Test1 object at 0x03362AF0>.func\n\npython\\test_sample.py:11: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "MS-20170904PNKR"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "105948-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "python"
+  }, {
+    "name" : "testClass",
+    "value" : "python"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_sample.Test1.test_answer"
+  }, {
+    "name" : "package",
+    "value" : "python"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "be2e4c24078cf853.json",
+  "parameterValues" : [ ]
+}

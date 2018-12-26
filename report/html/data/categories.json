@@ -1,0 +1,25 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 4 == 5\n +  where 4 = <bound method Test1.func of <python.test_sample.Test1 object at 0x03362AF0>>(3)\n +    where <bound method Test1.func of <python.test_sample.Test1 object at 0x03362AF0>> = <python.test_sample.Test1 object at 0x03362AF0>.func",
+      "children" : [ {
+        "name" : "test_sample.Test1.test_answer",
+        "uid" : "be2e4c24078cf853",
+        "parentUid" : "dec8f36a69447c39f765507adecd4169",
+        "status" : "failed",
+        "time" : {
+          "start" : 1544433283642,
+          "stop" : 1544433283749,
+          "duration" : 107
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dec8f36a69447c39f765507adecd4169"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}
